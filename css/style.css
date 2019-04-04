@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden; }
+
+.main {
+  min-height: 95vh; }
+
+body {
+  font-weight: 400; }
+
+.footer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  font-size: 1.6rem;
+  padding: 2rem 0; }
+  .footer__copyright {
+    color: white;
+    text-align: center; }
+    .footer__copyright a {
+      color: orangered;
+      text-decoration: none; }
+      .footer__copyright a:hover {
+        color: orange; }

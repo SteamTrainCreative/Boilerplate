@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "Steam Train Creative",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "typeturajs": "^1.0.8"
   }
 }

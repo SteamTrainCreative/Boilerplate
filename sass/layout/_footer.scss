@@ -1,0 +1,19 @@
+.footer {
+    width: 100%;
+    background-color: $footer-color-one;
+    font-size: $default-font-size;
+    padding: 2rem 0;
+
+    &__copyright {
+        color: $primary-color-one;
+        text-align: center;
+        a {
+            color: orangered;
+            text-decoration: none;
+
+            &:hover {
+                color: $link-color-hover-one;
+            }
+        }
+    }
+}
