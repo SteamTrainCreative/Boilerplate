@@ -1,3 +1,122 @@
 body {
+    font-family: "Lato", sans-serif;
     font-weight: 400;
 }
+
+article p {
+    --tt-key: p;
+    font-size: 1.6rem;
+    line-height: 1.375;
+  }
+  
+  @keyframes p {
+    0%, 23.4375% {
+      font-size: 1.6rem;
+      line-height: 1.25;
+    }
+    64% {
+      line-height: 1.275;
+    }
+    85.375% {
+      line-height: 1.375;
+    }
+  }
+  article h1 {
+    --tt-key: h1;
+    font-size: 4.8rem;
+    line-height: 1.05;
+  }
+  
+  @keyframes h1 {
+    0%, 23.4375% {
+      font-size: 3.2rem;
+      line-height: 1.25;
+    }
+    64% {
+      font-size: 4rem;
+      line-height: 1.125;
+    }
+    85.375% {
+      font-size: 4.8rem;
+      line-height: 1.05;
+    }
+  }
+  article h2 {
+    --tt-key: h2;
+    font-size: 3.6rem;
+    line-height: 1.25;
+  }
+  
+  @keyframes h2 {
+    0%, 23.4375% {
+      font-size: 2.6rem;
+      line-height: 1.1538;
+    }
+    64% {
+      font-size: 3.2rem;
+      line-height: 1.25;
+    }
+    85.375% {
+      font-size: 3.6rem;
+      line-height: 1.25;
+    }
+  }
+  article h3 {
+    --tt-key: h3;
+    font-size: 2.8rem;
+    line-height: 1.25;
+  }
+  
+  @keyframes h3 {
+    0%, 23.4375% {
+      font-size: 2.2rem;
+      line-height: 1.13;
+    }
+    64% {
+      font-size: 2.4rem;
+      line-height: 1.25;
+    }
+    85.375% {
+      font-size: 2.8rem;
+      line-height: 1.25;
+    }
+  }
+  article h4 {
+    --tt-key: h4;
+    font-size: 1.8rem;
+    line-height: 1.22;
+  }
+  
+  @keyframes h4 {
+    0%, 23.4375% {
+      font-size: 1.8rem;
+      line-height: 1.11;
+    }
+    64% {
+      line-height: 1.22;
+    }
+    85.375% {
+      line-height: 1.22;
+      font-size: 1.8rem;
+    }
+  }
+  article blockquote {
+    --tt-key: blockquote;
+    font-size: 2.4rem;
+    line-height: 1.45;
+  }
+  
+  @keyframes blockquote {
+    0%, 23.4375% {
+      font-size: 2rem;
+      line-height: 1.25;
+    }
+    64% {
+      font-size: 2.4rem;
+      line-height: 1.45;
+    }
+    85.375% {
+      font-size: 2.4rem;
+      line-height: 1.45;
+    }
+  }
